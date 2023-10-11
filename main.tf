@@ -15,7 +15,3 @@ resource "google_bigquery_dataset" "dataset" {
   }
 
 }
-
-resource "google_service_account" "bqowner" {
-  account_id = "bqowner"
-}
